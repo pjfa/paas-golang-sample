@@ -26,6 +26,6 @@ func main() {
 
 	err := router.Run(":" + port)
 	if err != nil {
-		log.Fatal(fmt.Errorf("error on run gin router: %w", err))
+		log.Fatal(fmt.Errorf("error  on run gin router: %w", err))
 	}
 }
